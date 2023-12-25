@@ -1,0 +1,46 @@
+.app {
+  background-color: red;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.left-container {
+  background: #e3e2df;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.left-container__logo {
+  width: 100%;
+  margin-top: 100px;
+  --dot-bg: #e3e2df;
+  --dot-color: #ee4c7c;
+  --dot-size: 2px;
+  --dot-space: 6px;
+
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+  display: flex;
+  align-items: center;
+}
+
+.right-container {
+  background: black;
+  width: 50vw;
+}
