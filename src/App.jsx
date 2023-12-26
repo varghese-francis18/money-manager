@@ -7,14 +7,17 @@ import "./App.css";
 const App = () => {
   return (
     <div className="app">
-      <div className="left-container">
-        <div className="left-container__logo">
+      <div className="container">
+        <div className="container__logo">
           <Logo />
         </div>
-        <Income />
+        <div className="container__income">
+          <Income />
+        </div>
+      </div>
+      <div className="container__money_input">
         <MoneyInput />
       </div>
-      <div className="right-container">Hello</div>
     </div>
   );
 };

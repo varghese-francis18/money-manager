@@ -1,24 +1,23 @@
 .income{
-    display: flex;
     width: 100%;
-    justify-content: start;
     height: 100px;
+    display: flex;
     align-items: center;
-    margin: 20px 0px 0px 150px;
+ 
 
     &__input{
-        height: 30px;
+        margin:0px 10px 10px 15px;
+        height: 20px;
         border-radius: 10px;
-        font-size: 36px;
+        font-size: 26px;
         box-shadow: none;
         border: none;
         color: black;
-        display: flex;
-        align-items: center;
+
     }
 
     &__button{
-        margin-left: 18px;
+        margin:0px 16px 0px 5px;
         height: 32px;
         border-radius: 10px;
         border: none;

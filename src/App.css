@@ -1,24 +1,18 @@
 .app {
-  background-color: red;
-  display: flex;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  background-color: #e3e2df;
+  height: 99vh;
   margin: 0;
   padding: 0;
 }
-
-.left-container {
-  background: #e3e2df;
-  width: 50vw;
+.container {
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
 }
-
-.left-container__logo {
-  width: 100%;
-  margin-top: 100px;
+.container__logo {
+  margin-top: 25px;
+  width: 50vw;
   --dot-bg: #e3e2df;
   --dot-color: #ee4c7c;
   --dot-size: 2px;
@@ -36,11 +30,12 @@
       )
       center / var(--dot-space) var(--dot-space),
     var(--dot-color);
-  display: flex;
-  align-items: center;
+}
+.container__income {
+  margin-top: 25px;
 }
 
-.right-container {
-  background: black;
-  width: 50vw;
+.container__money_input {
+  display: flex;
+  justify-content: center;
 }

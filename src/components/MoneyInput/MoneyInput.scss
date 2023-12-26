@@ -1,35 +1,21 @@
 .money-input{
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    width: 650px;
   
+    &__name, &__value, &__button{
+        margin: 0px 25px;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
 
-    &__name{
-        margin: 0px 25px;
-        height: 30px;
-        border-radius: 10px;
-        border: none;
-        width: 150px;
-        padding-left: 10px;
-    }
-    
-    &__value{
-        margin: 0px 25px;
-        height: 30px;
-        border-radius: 10px;
-        border: none;
-        width: 150px;
-        padding-left: 10px;
-    }
     
     &__button{
-        margin: 0px 25px;
         height: 32px;
-        border-radius: 10px;
-        border: none;
-        width: 150px;
         background-color: #e3afbc;
     }
 }
